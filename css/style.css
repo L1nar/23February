@@ -1,0 +1,86 @@
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+}
+
+ul>li {
+    list-style: none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+}
+
+img {
+    max-width: 100%;
+}
+
+a {
+    text-decoration: none;
+}
+
+.wrapper {
+    min-height: 100%;
+    overflow: hidden;
+    display: flex;
+}
+
+.date {
+    background-color:white;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.date__img-wrap {
+    width: 70%;
+}
+
+.date__img {
+
+}
+
+.felicitation::before {
+    content: "";
+    background-color: blue;
+    position: absolute;
+    top: -50%;
+    left: -37%;
+    height: 160%;
+    width: 80%;
+    border-radius: 50%;
+    background-image: url();
+}
+
+.felicitation {
+    background-color: firebrick;
+    position: relative;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    line-height: 1.5;
+}
+
+.felicitation__text {
+    bottom: 60px;
+    right: 300px;
+    position: relative;
+    font-size: 100px;
+    color: gold;
+}
+
+.felicitation__img-wrap {
+    height: 100%;
+    width: 100%;
+}
